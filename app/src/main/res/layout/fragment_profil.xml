@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlanc">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/titlePasswordModif"
+                android:layout_width="316dp"
+                android:layout_height="32dp"
+                android:layout_above="@+id/oldpasswordTxt"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-49dp"
+                android:gravity="center"
+                android:text="@string/title_modifier_password"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/oldpasswordTxt"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="49dp"
+                android:ems="10"
+                android:hint="@string/old_password"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+            <EditText
+                android:id="@+id/newpasswordTxt"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oldpasswordTxt"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/new_password"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+            <Button
+                android:id="@+id/validerNewPasswordBtn"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/newpasswordTxt"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorButton"
+                android:text="@string/valider"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
+
+            <TextView
+                android:id="@+id/titleEmailModif"
+                android:layout_width="316dp"
+                android:layout_height="32dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/title_modifier_email"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/passwordModifMail"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleEmailModif"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/old_password"
+                android:inputType="textPassword"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+            <EditText
+                android:id="@+id/mailModifMail"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordModifMail"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/nouveau_mail"
+                android:inputType="textEmailAddress"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+            <Button
+                android:id="@+id/validerNewEmailBtn"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mailModifMail"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorButton"
+                android:text="@string/valider"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
+
+            <TextView
+                android:id="@+id/titleInfoModif"
+                android:layout_width="316dp"
+                android:layout_height="32dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/title_info_modif"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/firstnameTxt"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleEmailModif"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/firstname"
+                android:inputType="text"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+            <EditText
+                android:id="@+id/lastnameTxt"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordModifMail"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:hint="@string/lastname"
+                android:inputType="text"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+            <Button
+                android:id="@+id/validerInfoBtn"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mailModifMail"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorButton"
+                android:text="@string/valider"
+                android:textColor="@android:color/background_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

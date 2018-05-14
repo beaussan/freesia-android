@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/nomEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nom de la todolist"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/modifyBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/nomEdit"
+        android:layout_below="@+id/nomEdit"
+        android:background="@color/colorButton"
+        android:text="@string/update"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomEdit"
+        android:background="@color/colorButton"
+        android:text="@string/delete"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/CancelBtn"
+        android:layout_width="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomEdit"
+        android:background="@color/colorBlanc"
+        android:gravity="center"
+        android:text="@string/cancel" />
+</RelativeLayout>

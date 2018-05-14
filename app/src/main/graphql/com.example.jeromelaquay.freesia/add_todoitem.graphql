@@ -1,0 +1,10 @@
+  mutation addtodoitem($listId: Int!, $message : String!){
+  addTodoItem(listId: $listId, message : $message){
+    title,
+    id,
+    todoItems{
+       id,
+       text
+    }
+  }
+}

@@ -1,0 +1,7 @@
+mutation archiveTodo($itemId: Int!) {
+  archiveTodo(itemId: $itemId){
+   text,
+    id,
+    isArchived
+  }
+}

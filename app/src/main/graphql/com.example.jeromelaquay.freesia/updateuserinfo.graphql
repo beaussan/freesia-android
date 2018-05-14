@@ -1,0 +1,7 @@
+  mutation updateuserinfo($firstname: String!, $lastname: String!){
+  updateUserInfo(firstname : $firstname, lastname : $lastname){
+    id,
+    firstName,
+    lastName
+  }
+}

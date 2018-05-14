@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name" translatable="false">Freesia2</string>
+    <string name="title_profil">Profil</string>
+    <string name="title_todolist" translatable="false">Todolist</string>
+    <string name="title_note_taking">Prise de notes</string>
+    <string name="title_address">Adresses</string>
+    <string name="password">Mot de passe</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="connect">Se connecter</string>
+    <string name="register">S\'inscrire</string>
+    <string name="connectTitle">Connexion</string>
+    <string name="firstname">Prenom</string>
+    <string name="lastname">Nom</string>
+    <string name="disconnect">Déconnexion</string>
+    <string name="title_photo" translatable="false">Photos</string>
+    <string name="title_modifier_password">Modifier le mot de passe</string>
+    <string name="old_password">mot de passe actuel</string>
+    <string name="new_password">nouveau mot de passe</string>
+    <string name="valider">Valider</string>
+    <string name="title_modifier_email">Modifier l\'email</string>
+    <string name="nouveau_mail">Nouveau email</string>
+    <string name="title_info_modif">Modifier vos informations</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_todoitem">TodoitemActivity</string>
+    <string name="vos_todolists">Vos todolists</string>
+    <string name="cancel">Annuler</string>
+    <string name="update">modifier</string>
+    <string name="delete">Supprimer</string>
+    <string name="create_item">Créer la tâche</string>
+    <string name="name_item">Nom de la tâche</string>
+    <string name="todolist_name">Nom de la todolist</string>
+    <string name="create_todolist">Créer la todolist</string>
+    <string name="taskNumber">Nombre de tâches</string>
+</resources>

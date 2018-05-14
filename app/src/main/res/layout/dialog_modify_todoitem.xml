@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/messageEdit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nom de la todolist"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/modifyBtnItem"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/messageEdit2"
+        android:layout_below="@+id/messageEdit2"
+        android:background="@color/colorButton"
+        android:text="@string/update"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/deleteBtnItem"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorButton"
+        android:text="@string/delete"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/messageEdit2"/>
+
+    <Button
+        android:id="@+id/CancelBtnItem"
+        android:layout_width="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/messageEdit2"
+        android:background="@color/colorBlanc"
+        android:gravity="center"
+        android:text="@string/cancel" />
+</RelativeLayout>

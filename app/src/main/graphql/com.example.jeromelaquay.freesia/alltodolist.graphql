@@ -1,0 +1,13 @@
+query allTodoList{
+  allTodoList{
+    title,
+    id,
+    owner{
+    firstName,
+    lastName
+    }
+    todoItems{
+        id
+    }
+  }
+}

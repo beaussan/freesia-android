@@ -1,0 +1,10 @@
+query todolistbyid($id: Int!){
+todoListById(id: $id){
+    title,
+    id,
+    todoItems{
+      id,
+      text
+  }
+  }
+}

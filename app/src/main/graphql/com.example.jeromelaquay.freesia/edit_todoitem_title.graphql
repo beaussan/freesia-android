@@ -1,0 +1,6 @@
+mutation editTodoitemText($itemId: Int!, $text: String!) {
+  editTodoItemName(itemId: $itemId,name: $text){
+   text,
+    id
+  }
+}

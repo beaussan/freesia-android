@@ -1,0 +1,6 @@
+mutation createtodolist($name: String! ){
+  createTodoList(name : $name){
+    title,
+    id
+  }
+}

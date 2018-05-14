@@ -1,0 +1,5 @@
+mutation connect( $email:String!, $password:String!){
+  getToken(email : $email, password : $password){
+    access_token
+  }
+}

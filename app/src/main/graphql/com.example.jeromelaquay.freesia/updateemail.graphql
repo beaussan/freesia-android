@@ -1,0 +1,7 @@
+  mutation updateemail($password: String!, $email: String!){
+  updateEmail(password : $password, email : $email){
+    id,
+    firstName,
+    lastName
+  }
+}

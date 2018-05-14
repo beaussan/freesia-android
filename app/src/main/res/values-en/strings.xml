@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Freesia</string>
+    <string name="title_profil">Profile</string>
+    <string name="title_note_taking">Notes taking</string>
+    <string name="title_address">Addresses</string>
+    <string name="password">Password</string>
+    <string name="connect">Connect</string>
+    <string name="register">Register</string>
+    <string name="connectTitle">Connection</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="title_modifier_password">Update password</string>
+    <string name="old_password">password</string>
+    <string name="new_password">New password</string>
+    <string name="valider">Validate</string>
+    <string name="title_modifier_email">Update email</string>
+    <string name="nouveau_mail">New email</string>
+    <string name="title_info_modif">Update informations</string>
+    <string name="vos_todolists">Your todolists</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="create_item">Create item</string>
+    <string name="name_item">Item name</string>
+    <string name="todolist_name">Todolist name</string>
+    <string name="create_todolist">Create todolist</string>
+    <string name="taskNumber">Number of items</string>
+</resources>

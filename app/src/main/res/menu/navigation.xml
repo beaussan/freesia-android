@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/account"
+        android:title="@string/title_profil" />
+
+    <item
+        android:id="@+id/navigation_todolist"
+        android:icon="@drawable/format_list_numbers"
+        android:title="@string/title_todolist" />
+
+    <item
+        android:id="@+id/navigation_note_taking"
+        android:icon="@drawable/note_text"
+        android:title="@string/title_note_taking" />
+
+    <item
+        android:id="@+id/navigation_photo"
+        android:icon="@drawable/camera"
+        android:title="@string/title_photo" />
+
+</menu>
