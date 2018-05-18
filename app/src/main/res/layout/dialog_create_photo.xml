@@ -32,8 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/prendrePhoto"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/description_photo" />
+        android:hint="@string/description_photo"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/createPhotoBtn"
