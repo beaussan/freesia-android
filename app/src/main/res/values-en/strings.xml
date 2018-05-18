@@ -27,4 +27,7 @@
     <string name="todolist_name">Todolist name</string>
     <string name="create_todolist">Create todolist</string>
     <string name="taskNumber">Number of items</string>
+    <string name="description_photo">photo description</string>
+    <string name="ajouter_photo">Add the photo</string>
+    <string name="prendre_photo">Take a picture</string>
 </resources>

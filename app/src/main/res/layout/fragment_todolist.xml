@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/titleTodolist"
+        android:id="@+id/titlePhoto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorButton"
@@ -18,14 +18,14 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/swiperefreshtodolist"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlePhoto">
 
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/titleTodolist"
         android:orientation="vertical"
         android:scrollbars="vertical"
         app:layoutManager="android.support.v7.widget.LinearLayoutManager"

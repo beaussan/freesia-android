@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Freesia2</string>
+    <string name="app_name" translatable="false">Freesia</string>
     <string name="title_profil">Profil</string>
     <string name="title_todolist" translatable="false">Todolist</string>
     <string name="title_note_taking">Prise de notes</string>
@@ -33,4 +33,7 @@
     <string name="todolist_name">Nom de la todolist</string>
     <string name="create_todolist">Créer la todolist</string>
     <string name="taskNumber">Nombre de tâches</string>
+    <string name="description_photo">description de la photo</string>
+    <string name="ajouter_photo">Ajouter la photo</string>
+    <string name="prendre_photo">Prendre une photo</string>
 </resources>
