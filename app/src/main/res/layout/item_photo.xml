@@ -11,16 +11,15 @@
         android:id="@+id/imagePhoto"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
 
     <TextView
         android:id="@+id/messagePhoto"
-        android:layout_width="199dp"
+        android:layout_width="283dp"
         android:layout_height="29dp"
-        android:layout_alignStart="@+id/titleTxt"
-        android:layout_below="@+id/titleTxt"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
         android:gravity="center"
         android:text="TextView"
         android:textColor="@android:color/background_light" />
